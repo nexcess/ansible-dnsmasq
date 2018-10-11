@@ -40,7 +40,7 @@ One or more upstream DNS servers can can be specified with the variable `dnsmasq
 ```Yaml
     dnsmasq_upstream_servers: ns1.example.com
   OR
-    dnsmasq_upstream_server:
+    dnsmasq_upstream_servers:
       - 8.8.4.4
       - 8.8.8.8
 ```
@@ -94,7 +94,7 @@ Most Dnsmasq settings have sane defaults and don't have to be specified. The sim
     - bertvv.dnsmasq
 ```
 
-A more elaborate example, with DHCP can be found in the [test playbook]().
+A more elaborate example, with DHCP can be found in the [test playbook](https://github.com/bertvv/ansible-dnsmasq/blob/tests/test.yml).
 
 ## Testing
 
